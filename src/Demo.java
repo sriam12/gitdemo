@@ -9,11 +9,14 @@ public class Demo {
     public void type(){
     	System.out.println("Asian guy modification in branch develop");
     }	
+    public void American(){
+    	System.out.println("American guy pulled and made modifications");
+    }
 	public static void main(String [] args){
 	 Demo a = new Demo();
 	 a.run();
 	 a.type();
-		
+	 a.American();	
 	}
 	}
 
