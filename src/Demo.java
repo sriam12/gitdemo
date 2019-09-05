@@ -3,17 +3,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Demo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public void run(){
+		System.out.println("after the git operation in gitdemo");
+	}
 		
-		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe" );
-		WebDriver driver = new ChromeDriver();
-		driver.get("http://google.com");
-		System.out.println(driver.getTitle());
-		driver.navigate().to("http://yahoo.com");
-		driver.navigate().back();
+	public static void main(String [] args){
+	 Demo a = new Demo();
+	 a.run();
 		
-
+	}
 	}
 
-}
+
